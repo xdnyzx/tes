@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+		<title>simpe alert ios</title>
+		<link rel="stylesheet" type="text/css" href="https://xdnyzx.github.io/tes/public.css"/>
+		<link rel="stylesheet" type="text/css" href="https://xdnyzx.github.io/tes/layer.css"/>
+		<style>
+		.container { margin: 150px auto; max-width: 960px; }
+			.btn{
+				width: 120px;
+				height: 36px;
+				line-height: 36px;
+				text-align: center;
+				border-radius: 4px;
+				background: #1e90ff;
+				margin: 10px 0 0 30px;
+				color: #fff;
+			}
+			.mt10{
+				margin-top: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+	<h1>© by jQuery mobile-layer: iOS Style Popup Dialog Demos</h1>
+</div>
+		<div class="btn"><a href="javascript:;" id="alert">Alert</a></div>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+		<script src="https://xdnyzx.github.io/tes/mobileLayer.js"></script>
+		<script>
+
+			
+			$("#alert").on("click",function(){
+				$.alert('Hiii','are you oke?',function(){
+					console.log('kontol')
+				})
+			})
+		</script>
+	</body>
+</html>
